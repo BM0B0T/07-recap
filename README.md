@@ -72,6 +72,9 @@ Relevant info
 NB. Hvis dere får problemer med "No space left on device" når dere jobber med docker, kan dere liste, og slette Container images
 i Cloid 9 med kommandoene.  
 
+Hvis dere får problmer med at Docker build, eller maven build ikke funker pga ukompatibel Javaversjon, så kan dere endre ```FROM```
+klausulen i Dokerfile til ```FROM maven:3.8.6-openjdk-18 as builder```
+
 ```sh
 docker image
 docker rmi "image id"
@@ -103,6 +106,10 @@ Relevant info
 
 * https://github.com/glennbechdevops/spring-docker-dockerhub
 
+
+## Deploy din Docker container som en AWS App runner tjeneste
+
+Lykke til :-) 
 
 
 
