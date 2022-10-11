@@ -106,7 +106,6 @@ Relevant info
 
 * https://github.com/glennbechdevops/spring-docker-dockerhub
 
-
 ## Deploy din Docker container som en AWS App runner tjeneste
 
 Lykke til :-) 
