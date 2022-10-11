@@ -69,6 +69,16 @@ Relevant info
 
 ## Docker
 
+NB. Hvis dere får problemer med "No space left on device" når dere jobber med docker, kan dere liste, og slette Container images
+i Cloid 9 med kommandoene.  
+
+```sh
+docker image
+docker rmi "image id"
+```
+
+Fjern alt som har Python i navnet :)
+
 * Lag en Dockerfile slik at du kan pakke spring boot applikasjonen din som et Docker image. 
 * Lag et "multi stage" docker" build
 * Kjør applikasjonen din i Cloud 9, fra en terminal, både som Docker container og ved hjelp av Maven
